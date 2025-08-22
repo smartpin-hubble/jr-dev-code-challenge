@@ -1,4 +1,4 @@
-import React, { ReactElement, useContext, useMemo } from "react";
+import React, { ReactElement, useContext } from "react";
 import { Row } from "./row";
 import { GameContext } from "../contexts/game";
 import { Cell } from "../interfaces/IBoard";

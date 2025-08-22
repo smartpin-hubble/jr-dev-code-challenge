@@ -33,7 +33,6 @@ export const INITIAL_STATE: IState = {
 
 export function gameReducer(currentState: IState, action: Action): IState {
   const { type, data } = action;
-  console.log("action", type, data);
 
   switch (type) {
     case "RESET": {
