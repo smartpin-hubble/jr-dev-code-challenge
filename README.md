@@ -45,8 +45,12 @@ Open http://localhost:3000 with your browser to see the app.
 
 1. Winner/tie alert styling
 
-- Make the alert prominent and accessible.
-- Include a clear status (e.g., “Winner: X” or “Tied game”). The logic for this is already implemented, you just need to make it look more user friendly.
+Note: The logic to show the result of a game (Winner/Tied Game) is already implemented
+
+- Update the styling of the result to match the alert component pictured below.
+- We are looking for a close enough match - it does not have to be pixel perfect
+
+![Alert component](./alert.png)
 
 2. Reset/New Game button doesn’t work
 
@@ -84,10 +88,6 @@ Acceptance criteria (bugs)
 - Show a list of the most recent five game results and persist across reloads.
 - Track results by Player 1/Player 2 identity (not by X/O), including ties.
 - Reset the results list when switching game type (PVP vs PVC).
-
-4. Light polish (time-boxed)
-
-- Apply tasteful Tailwind styling to improve the look and feel without over-investing time
 
 Acceptance criteria (features)
 
